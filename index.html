@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Monster Battle</title>
+	<!-- reset stylesheet link, bootstrap link and local style link -->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- JQuery -->
+	<script src="https://code.jquery.com/jquery.js"></script>
+
+</head>
+<body>
+	<header>
+		<h1 class="text-center">It's a Monster Battle!</h1>
+	</header>
+		<div class = "container">
+			<!-- all characters start in "charSelect" then move to designated div once selected as attacker or defender -->
+			<div id = "charSelect" class = "row">
+				<div id = "mon0" class = "col-sm-3 text-center monbox">
+					<span class = "name">Godzilla</span>
+					<img class = "picture" src = "assets/images/godzilla.jpg">
+					<span class = "hp">150</span>
+				</div>
+				<div id = "mon1" class = "col-sm-3 text-center monbox">
+					<span class = "name">Mothra</span>
+					<img class = "picture" src = "assets/images/mothra.jpg">
+					<span class = "hp">110</span>
+				</div>
+				<div id = "mon2" class = "col-sm-3 text-center monbox">
+					<span class = "name">King Kong</span>
+					<img class = "picture" src = "assets/images/kingkong.jpg">
+					<span class = "hp">130</span>
+				</div>
+				<div id = "mon3" class = "col-sm-3 text-center monbox">
+					<span class = "name">Mechagodzilla</span>
+					<img class = "picture" src = "assets/images/mechagodzilla.png">
+					<span class = "hp">180</span>
+				</div>
+			</div>
+			<div class = "chosenChar">
+				<span class = "rowhead">Fighter!</span>
+			</div>
+			<div class = "enemies">
+				<span class = "rowhead">Enemies in your way!</span>
+			</div>
+			<div class = "attack">
+				<button> Attack</button>
+			</div>
+			<div class = "defender">
+				<span class = "rowhead">Defender!</span>
+			</div>
+		</div>
+	<footer class="footer">
+      <div class="container text-center">
+        <p class="text-strong">Monster Battle &copy 2016</p>
+      </div>
+   	</footer>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+body {
+	background-image: url(../images/monsterBack.jpg);
+    z-index:-1;
+    width:100%;
+}
+h1 {
+	color: red;
+}
+.container {
+	width: 80%;
+}
+.picture {
+	width: 100%;
+	float: left;
+}
+.name {
+	width: 100%;
+	float: left;
+	color: white;
+	padding: 5px;
+}
+.hp {
+	float: left;
+	width: 100%;
+	color: white;
+	padding: 5px;
+}
+.monbox {
+	background-color: rgba(0, 0, 0, 0.46);
+}
+.chosenChar {
+	width: 100%;
+	float: left;
+}
+.rowhead {
+	float: left;
+	width: 100%;
+}
+.attack {
+	float: left;
+	width: 100%;
+}
