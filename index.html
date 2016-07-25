@@ -19,46 +19,47 @@
 	</header>
 		<div class = "container">
 			<!-- all characters start in "charSelect" then move to designated div once selected as attacker or defender -->
+			<div id = "gameStatus"></div>
+			<div id = "fightStatus"></div>
 			<div id = "charSelect" class = "row">
-				<div id = "mon0" class = "col-sm-3 text-center monbox">
+				<!-- <div id = "mon0" class = "col-sm-3 text-center monbox" monster-id = "0">
 					<span class = "name">Godzilla</span>
 					<img class = "picture" src = "assets/images/godzilla.jpg">
 					<span class = "hp">150</span>
 				</div>
-				<div id = "mon1" class = "col-sm-3 text-center monbox">
+				<div id = "mon1" class = "col-sm-3 text-center monbox" monster-id = "1">
 					<span class = "name">Mothra</span>
 					<img class = "picture" src = "assets/images/mothra.jpg">
 					<span class = "hp">110</span>
 				</div>
-				<div id = "mon2" class = "col-sm-3 text-center monbox">
+				<div id = "mon2" class = "col-sm-3 text-center monbox" monster-id = "2">
 					<span class = "name">King Kong</span>
 					<img class = "picture" src = "assets/images/kingkong.jpg">
 					<span class = "hp">130</span>
 				</div>
-				<div id = "mon3" class = "col-sm-3 text-center monbox">
+				<div id = "mon3" class = "col-sm-3 text-center monbox" monster-id = "3">
 					<span class = "name">Mechagodzilla</span>
 					<img class = "picture" src = "assets/images/mechagodzilla.png">
 					<span class = "hp">180</span>
-				</div>
+				</div> was used for placing elements on page-->
 			</div>
-			<div class = "chosenChar">
-				<span class = "rowhead">Fighter!</span>
-			</div>
-			<div class = "enemies">
-				<span class = "rowhead">Enemies in your way!</span>
-			</div>
-			<div class = "attack">
+			<!-- <div><span class = "rowhead">Enemies in your way!</span></div>
+			<div id = "enemies"></div> -->
+			<div><span class = "rowhead">Fighter!</span></div>
+			<div id = "chosenChar"></div>
+			<div id = "attack">
 				<button> Attack</button>
 			</div>
-			<div class = "defender">
-				<span class = "rowhead">Defender!</span>
-			</div>
+			<div><span class = "rowhead">Defender!</span></div>
+			<div id = "defender"></div>
+			<div><span class = "rowhead">Graveyard</span></div>
+			<div id = "lost"></div>
 		</div>
 	<footer class="footer">
       <div class="container text-center">
         <p class="text-strong">Monster Battle &copy 2016</p>
       </div>
    	</footer>
-<script type="text/javascript" src="assets/javascript/game.js"></script>
+<script type="text/javascript" src="assets/javascript/example.js"></script>
 </body>
 </html>
